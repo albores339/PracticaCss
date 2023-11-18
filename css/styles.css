@@ -1,0 +1,71 @@
+.asideIzquierdo {
+  box-sizing: border-box;
+  width: 250px;
+  height: 100%;
+  background-color: yellow;
+  border-radius: 12px;
+}
+
+.cardOne {
+  border: 5px solid chartreuse;
+  border-radius: 12px;
+}
+
+.buttonFirst {
+  background-color: rgba(0, 0, 0, 0);
+  bottom: 20px;
+  border-bottom-color: blue;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-style: solid;
+  border-bottom-width: 1;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  text-align: center;
+}
+
+.buttonFirst:hover {
+  color: blue;
+  text-decoration: dashed;
+}
+
+/*.sidebar .menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}*/
+
+/*.lnk {
+  color: black;
+  text-decoration: none;
+  background-color: white; /*qui
+}*/
+
+/*.cardOne {
+  padding: 5px;
+}
+
+.wrapper {
+  justify-content: start;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px ridge rgb(204, 204, 204);
+  border-radius: 12px;
+}
+
+.contenido {
+  justify-content: center;
+}
+
+ul {
+  text-decoration: none;
+}
+
+@media screen {
+}
+*/
