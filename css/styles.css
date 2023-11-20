@@ -1,0 +1,28 @@
+.crayons-card__header {
+  padding: var(--su-3) var(--su-4);
+  border-bottom: 1px doddet var(--body-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.crayons-link--contentful {
+  display: block;
+  padding: var(--su-4);
+  border-bottom: 1px solid var(--body-bg);
+}
+
+.crayons-link--contentful {
+  display: block;
+  padding: var(--su-4);
+  border-bottom: 1px solid var(--body-bg);
+}
+.crayons-link {
+  color: var(--link-color);
+}
+.widget {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  padding: 0 16px 16px 16px;
+  margin: 8px 0 16px 0;
+}
