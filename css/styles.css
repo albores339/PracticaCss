@@ -1,10 +1,16 @@
-* {
+.container .sideLeft {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
   font-size: 16px;
   line-height: 24px;
   text-size-adjust: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
 }
 
 div.firstCard {
@@ -346,7 +352,6 @@ body {
 .topMain {
     margin: 0px;
     display: flex;
-    margin-top: 50px;
 }
 
 .pestañasMain{
@@ -371,7 +376,7 @@ body {
     cursor: pointer;
 }
 
-.firstCard {
+.cardOne {
     width: 100%;
     margin: 0;
     padding: 0;
