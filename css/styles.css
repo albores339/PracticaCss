@@ -1,6 +1,6 @@
 .sideLeft {
   display: none;
-  margin-left: 4px;
+  margin-right: 8px;
 }
 
 *{
@@ -25,7 +25,6 @@ div.firstCard {
   color: rgb(64, 64, 64);
   display: block;
   padding: 16px;
-  width: 218.562px;
 }
 
 h2.subtitleCard {
@@ -614,6 +613,26 @@ body {
     justify-content: space-between;
     align-items: center;
     color: rgb(109, 100, 100);
+}
+
+footer {
+  background-color: rgb(225, 227, 233);
+  width: 100%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: small;
+}
+
+.footer {
+  margin: 0;
+}
+
+.footerLink {
+  color: blue;
 }
 
 @media screen and (min-width: 767px) {
