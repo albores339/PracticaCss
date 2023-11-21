@@ -1,10 +1,6 @@
-.container .sideLeft {
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-  font-size: 16px;
-  line-height: 24px;
-  text-size-adjust: 100%;
+.sideLeft {
+  display: none;
+  margin-left: 8px;
 }
 
 .wrapper {
@@ -56,7 +52,6 @@ a.createLink {
   height: 40px;
   margin-bottom: 4px;
   overflow-wrap: normal;
-  padding: 7px 15px 7px 15px;
   position: relative;
   text-align: center;
   width: 186.562px;
@@ -251,23 +246,12 @@ a.endingButton:hover {
   transition: 0.5s;
 }
 
-@media screen and (min-width: 600px) {
-  .sideBarFlex {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: left;
+@media screen and (min-width: 667px) {
+.sideLeft {
+    display: block;
   }
 }
 
-@media (min-width: 992px) {
-  .sideBarFlex {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: left;
-  }
-}
 header {
   background: white;
   width: 100%;
