@@ -6,7 +6,7 @@
 .wrapper {
     display: flex;
     flex-direction: row;
-    margin-top: 80px;
+    margin-top: 75px;
 }
 
 div.firstCard {
@@ -268,7 +268,8 @@ header {
   margin: 4px;
   display: flex;
   flex-direction: row;
-  width: 30%;
+  justify-content: flex-end;
+  width: 55%;
 }
 
 .clickhere{
@@ -355,7 +356,7 @@ input {
   border-radius: 4px;
 }
 body {
-    background-color: rgb(243, 233, 233);
+    background-color: rgb(235, 240, 243);
 }
 
 .roboto {
@@ -597,25 +598,22 @@ body {
     color: rgb(109, 100, 100);
 }
 
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 767px) {
   .sideLeft {
       display: block;
     }
-  }
-  
-  @media screen and (min-width: 720px) {
-      input {
-        display: block;
-      }
-      .logo{
-        width: 50%;
-      }
-
-      .buttonLogIn{
-        display: block;
-      }
+    input {
+      display: block;
     }
-  
+    .logo{
+      width: 50%;
+    }
+
+    .buttonLogIn{
+      display: block;
+    }
+  }
+
   @media (min-width: 1020px) {
   
     .asideDerecho{
