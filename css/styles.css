@@ -256,6 +256,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   height: 64px;
+  z-index: 2;
 }
 
 .header .logo {
