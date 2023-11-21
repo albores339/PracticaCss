@@ -6,7 +6,7 @@
 .wrapper {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 div.firstCard {
@@ -246,19 +246,16 @@ a.endingButton:hover {
   transition: 0.5s;
 }
 
-@media screen and (min-width: 667px) {
-.sideLeft {
-    display: block;
-  }
-}
-
 header {
   background: white;
   width: 100%;
   position: fixed;
   top: 0;
+  left: 0;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  height: 64px;
 }
 
 .header .logo {
@@ -267,7 +264,22 @@ header {
 }
 
 .nav {
-  justify-content: flex-end;
+  padding: 8px;
+  margin: 4px;
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+
+.clickhere{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.lupita {
+  margin: 8px;
 }
 
 .buttonLogIn {
@@ -275,13 +287,13 @@ header {
   border: none;
   border-radius: 4px;
   color: rgb(59, 57, 57); /*grey - black */
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
   transition: all 0.3 ease;
   display: none;
+  margin: 8px;
 }
 .buttonLogIn:hover {
   background-color: rgb(124, 170, 170);
@@ -293,7 +305,7 @@ header {
   border: 1px solid;
   border-radius: 4px;
   color: rgb(21, 21, 194); /*grey - black */
-  padding: 15px 32px;
+  padding: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -314,6 +326,23 @@ input {
 }
 
 .logo {
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.burguer{
+  margin: 8px;
+}
+
+.logotype{
+  margin: 8px;
+}
+
+.searchInput{
+  margin: 8px;
 }
 
 .crayons-icon {
@@ -567,3 +596,30 @@ body {
     align-items: center;
     color: rgb(109, 100, 100);
 }
+
+@media screen and (min-width: 667px) {
+  .sideLeft {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 720px) {
+      input {
+        display: block;
+      }
+      .logo{
+        width: 50%;
+      }
+
+      .buttonLogIn{
+        display: block;
+      }
+    }
+  
+  @media (min-width: 1020px) {
+  
+    .asideDerecho{
+      display: block;
+    }
+  }
+  
