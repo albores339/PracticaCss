@@ -3,6 +3,14 @@
   margin-left: 8px;
 }
 
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  line-height: 24px;
+  text-size-adjust: 100%;
+}
+
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -543,16 +551,18 @@ body {
 .subTitleSecondCard {
     color: rgb(109, 100, 100);
     font-size: small;
+    cursor: pointer;
 }
 
 .secondCardContainer {
     width: 100%;
-
+    cursor: pointer;
 }
 
 .imageSecondCard {
     width: 100%;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .titleSecondCard {
@@ -562,6 +572,7 @@ body {
 .startNow {
     color: blue;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 /* users*/
@@ -571,6 +582,7 @@ body {
     border-radius: 8px;
     padding: 8px 16px 8px 16px;
     margin-top: 16px;
+    cursor: pointer;
 }
 
 .imageProfileUsers {
@@ -584,6 +596,10 @@ body {
 .titleThirdCard {
     font-size: larger;
     margin: 8px 0 8px 0;
+}
+
+.titleThirdCard:hover {
+  color: blue;
 }
 
 .tagTwo {
