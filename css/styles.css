@@ -1,3 +1,267 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  line-height: 24px;
+  text-size-adjust: 100%;
+}
+
+div.firstCard {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: rgba(23, 23, 23, 0.05) 0px 0px 0px 1px;
+  box-sizing: border-box;
+  color: rgb(64, 64, 64);
+  display: block;
+  padding: 16px;
+  width: 218.562px;
+}
+
+h2.subtitleCard {
+  box-sizing: border-box;
+  color: rgb(36, 36, 36);
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  height: 100px;
+  line-height: 25px;
+  margin: 16px 0px 16px 0px;
+  text-size-adjust: 100%;
+  width: 186.562px;
+}
+
+p.subtitle {
+  color: rgb(87, 87, 87);
+  font-size: 16px;
+  height: 96px;
+  margin: 16px 0px, 16px 0px;
+  width: 186.562px;
+}
+
+a.createLink {
+  background-color: transparent;
+  border-bottom: 1px solid rgb(59, 73, 223);
+  border-radius: 6px;
+  color: rgb(59, 73, 223);
+  display: inline-flex;
+  cursor: pointer;
+  justify-content: center;
+  height: 40px;
+  margin-bottom: 4px;
+  overflow-wrap: normal;
+  padding: 7px 15px 7px 15px;
+  position: relative;
+  text-align: center;
+  width: 186.562px;
+}
+
+a.createLink:hover {
+  background-color: rgb(59, 73, 223);
+  color: white;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+a.logLink {
+  background-color: transparent;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: rgb(64, 64, 64);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  max-width: 100%;
+  margin-bottom: 4px;
+  overflow-wrap: normal;
+  padding: 7px 15px 7px 15px;
+  position: relative;
+  text-align: center;
+  width: 186.562px;
+}
+
+a.logLink:hover {
+  background-color: rgb(188, 192, 237);
+  color: blue;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+a.lnk {
+  margin: 16px 0 16px 0;
+  text-size-adjust: 100%;
+  list-style-image: none;
+  list-style-position: outside;
+  color: rgb(64, 64, 64);
+}
+
+a.lnk:hover {
+  transition: 1s;
+  background-color: rgb(188, 192, 237);
+  color: blue;
+  text-decoration: underline;
+  border-radius: 6px;
+}
+
+nav.otherNav {
+  box-sizing: border-box;
+  display: block;
+  height: 160px;
+  margin: 16px;
+}
+
+.h2.otherNavBar {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  margin: 0;
+  padding: 8px 0 8px 12px;
+}
+
+a.olnks {
+  color: rgb(36, 36, 36);
+  font-size: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a.olnks:hover {
+  transition: 1s;
+  background-color: rgb(188, 192, 237);
+  color: blue;
+  text-decoration: underline;
+  border-radius: 6px;
+}
+
+div.flexJustify {
+  display: flex;
+  height: 40px;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-bottom: 16px;
+  padding: 8px;
+  position: relative;
+}
+
+a.rrss:hover {
+  transition: 1s;
+  background-color: rgb(188, 192, 237);
+  color: blue;
+  text-decoration: underline;
+  border-radius: 6px;
+}
+
+nav.popularTags {
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+h3.popTags {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  margin: 0;
+  padding: 8px;
+}
+
+a.c-link {
+  color: rgb(64, 64, 64);
+}
+
+div.sideNavElement {
+  font-style: normal;
+  overflow-wrap: normal;
+  padding: 8px 16px 8px 16px;
+}
+
+div.sideNavElement:hover {
+  border-radius: 6px;
+  background-color: rgb(188, 192, 237);
+  color: blue;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+div.lastCard {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: rgba(23, 23, 23, 0.05) 0px 0px 0px 1px;
+  color: rgb(64, 64, 64);
+  display: block;
+  font-size: 16px;
+  height: 427px;
+  line-height: 24px;
+  padding: 12px 4px 4px 4px;
+  width: 218.562px;
+}
+
+h2.lasth2 {
+  color: rgb(64, 64, 64);
+  font-size: 24px;
+  font-weight: 700;
+  height: 120px;
+  margin: 0 0 9px 0;
+  padding: 0;
+  overflow-wrap: break-word;
+  width: 186.562px;
+}
+
+p.lastp {
+  color: rgb(64, 64, 64);
+  font-size: 16px;
+  height: 282px;
+  margin: 0;
+  overflow-wrap: break-word;
+  width: 186.562px;
+}
+
+a.endingButton {
+  background-color: transparent;
+  border-bottom: 1px solid rgb(59, 73, 223);
+  border-radius: 6px;
+  color: rgb(59, 73, 223);
+  display: block;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  height: 42px;
+  justify-content: center;
+
+  overflow-wrap: normal;
+  padding: 8px 16px 8px 16px;
+  position: relative;
+  text-align: center;
+  width: 186.562px;
+}
+
+a.endingButton:hover {
+  background-color: rgb(59, 73, 223);
+  color: white;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 600px) {
+  .sideBarFlex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .sideBarFlex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+  }
+}
 header {
   background: white;
   width: 100%;
