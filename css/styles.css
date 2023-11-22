@@ -3,7 +3,7 @@
   margin-right: 8px;
 }
 
-*{
+* {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
@@ -12,9 +12,9 @@
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: row;
-    margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
 }
 
 div.firstCard {
@@ -201,8 +201,7 @@ div.lastCard {
   color: rgb(64, 64, 64);
   display: block;
   font-size: 16px;
-  height: 427px;
-  line-height: 24px;
+  height: 650px;
   padding: 12px 4px 4px 4px;
   width: 218.562px;
 }
@@ -253,7 +252,7 @@ a.endingButton:hover {
   transition: 0.5s;
 }
 
-header {
+.header {
   background: white;
   width: 100%;
   position: fixed;
@@ -281,7 +280,7 @@ header {
   width: 55%;
 }
 
-.clickhere{
+.clickhere {
   margin: 0;
   padding: 0;
   display: flex;
@@ -344,15 +343,15 @@ input {
   align-items: center;
 }
 
-.burguer{
+.burguer {
   margin: 8px;
 }
 
-.logotype{
+.logotype {
   margin: 8px;
 }
 
-.searchInput{
+.searchInput {
   margin: 8px;
 }
 
@@ -367,236 +366,236 @@ input {
 }
 
 body {
-    background-color: rgb(240, 244, 247);
+  background-color: rgb(240, 244, 247);
 }
 
 .roboto {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .topMain {
-    margin: 0px;
-    display: flex;
+  margin: 0px;
+  display: flex;
 }
 
-.pestañasMain{
-    padding: 14px;
+.pestañasMain {
+  padding: 14px;
 }
 
 .relevant {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .relevant:hover {
-    font-weight: bold;
-    background-color: white;
-    color: blue;
-    border-radius: 8px;
-    cursor: pointer;
+  font-weight: bold;
+  background-color: white;
+  color: blue;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .latestTop:hover {
-    color: blue;
-    cursor: pointer;
+  color: blue;
+  cursor: pointer;
 }
 
 .cardOne {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    border-radius: 8px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border-radius: 8px;
 }
 
-.image{
-    width: 100%;
-    cursor: pointer;
-    border-radius: 8px 8px 0 0;
+.image {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
 }
 
 .cardImage {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
 }
 
 .profile {
-    font-size: small;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .imageProfile {
-    width: 32px;
-    border-radius: 100%;
-    margin: 8px 0px 8px 8px;
-    padding: 8px;
-    cursor: pointer;
+  width: 32px;
+  border-radius: 100%;
+  margin: 8px 0px 8px 8px;
+  padding: 8px;
+  cursor: pointer;
 }
 
 .nameProfile {
-    font-weight: bold;
-    cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.profileText{
-    display: flex;
-    flex-direction: column;
-    margin: 8px;
-    color: rgb(109, 100, 100);
-    cursor: pointer;
+.profileText {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  color: rgb(109, 100, 100);
+  cursor: pointer;
 }
 
 .titleCard {
-    margin: 0 16px 0 16px;
-    font-size: larger;
+  margin: 0 16px 0 16px;
+  font-size: larger;
 }
 
-.titleCard:hover{
-    color: blue;
-    cursor: pointer;
+.titleCard:hover {
+  color: blue;
+  cursor: pointer;
 }
 
 .hashtagCards {
-    font-size: small;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    color: rgb(109, 100, 100);
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgb(109, 100, 100);
 }
 
 .tag {
-    margin: 8px;
-    padding: 8px;
+  margin: 8px;
+  padding: 8px;
 }
 
-.writing:hover  {
-    border: solid 1px rgb(199, 240, 240);
-    background-color: rgb(236, 247, 247);
-    border-radius: 8px;
-    cursor: pointer;
+.writing:hover {
+  border: solid 1px rgb(199, 240, 240);
+  background-color: rgb(236, 247, 247);
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.career:hover  {
-    border: solid 1px rgb(240, 202, 240);
-    background-color:rgb(247, 228, 247);
-    border-radius: 8px;
-    cursor: pointer;
+.career:hover {
+  border: solid 1px rgb(240, 202, 240);
+  background-color: rgb(247, 228, 247);
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .beginners:hover {
-    border: solid 1px rgb(187, 238, 187);
-    background-color: rgb(232, 248, 232);
-    border-radius: 8px;
-    cursor: pointer;
+  border: solid 1px rgb(187, 238, 187);
+  background-color: rgb(232, 248, 232);
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.ai:hover  {
-    border: solid 1px rgb(240, 202, 240);
-    background-color:rgb(247, 228, 247);
-    border-radius: 8px;
-    cursor: pointer;
+.ai:hover {
+  border: solid 1px rgb(240, 202, 240);
+  background-color: rgb(247, 228, 247);
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .crayonsStoryBottom {
-    font-size: small;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 8px 8px 8px 16px;
-    align-items: center;
-    color: rgb(109, 100, 100);
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 8px 8px 16px;
+  align-items: center;
+  color: rgb(109, 100, 100);
 }
 
 .crayonsAccount {
-    padding: 8px;
-    cursor: pointer;
+  padding: 8px;
+  cursor: pointer;
 }
 
 .comments {
-    margin: 8px 8px 8px 16px;
-    cursor: pointer;
+  margin: 8px 8px 8px 16px;
+  cursor: pointer;
 }
 
 .readtime {
-    margin: 8px 8px 8px 16px;
-    cursor: pointer;
+  margin: 8px 8px 8px 16px;
+  cursor: pointer;
 }
 
 .left {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .right {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 /* secondCard*/
 
 .cardTwo {
-    background-color: white;
-    border-radius: 8px;
-    padding: 16px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .subTitleSecondCard {
-    color: rgb(109, 100, 100);
-    font-size: small;
-    cursor: pointer;
+  color: rgb(109, 100, 100);
+  font-size: small;
+  cursor: pointer;
 }
 
 .secondCardContainer {
-    width: 100%;
-    cursor: pointer;
+  width: 100%;
+  cursor: pointer;
 }
 
 .imageSecondCard {
-    width: 100%;
-    border-radius: 8px;
-    cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .titleSecondCard {
-    font-size: larger;
+  font-size: larger;
 }
 
 .startNow {
-    color: blue;
-    font-weight: bolder;
-    cursor: pointer;
+  color: blue;
+  font-weight: bolder;
+  cursor: pointer;
 }
 
 /* users*/
 
 .cardUsers {
-    background-color: white;
-    border-radius: 8px;
-    padding: 8px 16px 8px 16px;
-    margin-bottom: 8px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px 16px 8px 16px;
+  margin-bottom: 8px;
 }
 
 .imageProfileUsers {
-    width: 32px;
-    height: 32px;
-    border-radius: 100%;
-    margin: 8px;
-    cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  margin: 8px;
+  cursor: pointer;
 }
 
 .titleThirdCard {
-    font-size: larger;
-    margin: 8px 0 8px 0;
+  font-size: larger;
+  margin: 8px 0 8px 0;
 }
 
 .titleThirdCard:hover {
@@ -604,17 +603,67 @@ body {
 }
 
 .tagTwo {
-    padding: 8px;
+  padding: 8px;
 }
 
 .crayonsStoryBottomTwo {
-    font-size: small;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: rgb(109, 100, 100);
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(109, 100, 100);
 }
+
+/*Aside Derecho*/
+
+.asideDerecho {
+  width: 25%;
+  display: none;
+}
+
+.crayons-link {
+  color: black;
+}
+
+.discuss {
+  background-color: white;
+  padding: 16px;
+  margin: 0 32px 8px 8px;
+  border-radius: 8px;
+  color: rgba(23, 23, 23, 0.05);
+}
+
+.widget {
+  color: black;
+}
+
+.trending {
+  padding: 16px;
+  margin: 8px;
+  border-radius: 8px;
+  color: black;
+}
+
+.crayons-link--contentful {
+  margin: 8px;
+}
+
+.widget-link-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.psub {
+  color: black;
+  font-size: small;
+}
+
+.hr {
+  border-color: rgb(220, 215, 215);
+}
+
+/*footer*/
 
 footer {
   background-color: rgb(225, 227, 233);
@@ -639,23 +688,22 @@ footer {
 
 @media screen and (min-width: 767px) {
   .sideLeft {
-      display: block;
-    }
-    input {
-      display: block;
-    }
-    .logo{
-      width: 50%;
-    }
-
-    .buttonLogIn{
-      display: block;
-    }
+    display: block;
+  }
+  input {
+    display: block;
+  }
+  .logo {
+    width: 50%;
   }
 
-  @media (min-width: 1020px) {
-    .asideDerecho{
-      display: block;
-    }
+  .buttonLogIn {
+    display: block;
   }
-  
+}
+
+@media (min-width: 1020px) {
+  .asideDerecho {
+    display: block;
+  }
+}
